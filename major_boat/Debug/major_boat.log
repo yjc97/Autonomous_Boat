@@ -1,0 +1,36 @@
+﻿已經開始建置於 2019/7/22 下午 05:06:31。
+     1>節點 2 (Build 目標) 上的專案 "D:\檔案資料\c++\document\major_boat\major_boat\major_boat.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\檔案資料\opencv\build\include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib boat.cpp
+         boat.cpp
+     1>d:\檔案資料\opencv\build\include\opencv2\core\cvstd.hpp(575): warning C4793: 'cv::String::String': 函式會編譯成機器碼:
+         	找到 Managed 程式碼中不支援的內建
+     1>d:\檔案資料\opencv\build\include\opencv2\core\cuda.inl.hpp(105): warning C4793: 'cv::cuda::GpuMat::GpuMat': 函式會編譯成機器碼:
+         	找到 Managed 程式碼中不支援的內建
+     1>d:\檔案資料\opencv\build\include\opencv2\core\cuda.inl.hpp(395): warning C4793: 'cv::cuda::HostMem::HostMem': 函式會編譯成機器碼:
+         	找到 Managed 程式碼中不支援的內建
+     1>d:\檔案資料\opencv\build\include\opencv2\core\mat.inl.hpp(483): warning C4793: 'cv::Mat::Mat': 函式會編譯成機器碼:
+         	找到 Managed 程式碼中不支援的內建
+     1>d:\檔案資料\opencv\build\include\opencv2\core\mat.inl.hpp(807): warning C4793: 'cv::Mat::release': 函式會編譯成機器碼:
+         	找到 Managed 程式碼中不支援的內建
+     1>d:\檔案資料\opencv\build\include\opencv2\core\mat.inl.hpp(2143): warning C4793: 'cv::SparseMat::addref': 函式會編譯成機器碼:
+         	找到 Managed 程式碼中不支援的內建
+     1>d:\檔案資料\opencv\build\include\opencv2\core\mat.inl.hpp(3743): warning C4793: 'cv::UMat::addref': 函式會編譯成機器碼:
+         	找到 Managed 程式碼中不支援的內建
+     1>d:\檔案資料\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: 'cv::detail::PtrOwner::incRef': 函式會編譯成機器碼:
+         	找到 Managed 程式碼中不支援的內建
+     1>d:\檔案資料\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: 'cv::detail::PtrOwner::decRef': 函式會編譯成機器碼:
+         	找到 Managed 程式碼中不支援的內建
+     1>d:\檔案資料\opencv\build\include\opencv2\core\cvstd.hpp(657): warning C4793: 'cv::String::operator=': 函式會編譯成機器碼:
+         	找到 Managed 程式碼中不支援的內建
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\檔案資料\c++\document\major_boat\Debug\major_boat.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\檔案資料\opencv\build\x64\vc14\lib" /ASSEMBLYRESOURCE:Debug\major_boat.boat.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\檔案資料\c++\document\major_boat\Debug\major_boat.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\boat.obj
+         "Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+         ..\..\..\..\opencv\build\x64\vc14\lib\opencv_world343.lib
+         ..\..\..\..\opencv\build\x64\vc14\lib\opencv_world343d.lib
+     1>opencv_world343.lib(opencv_world343.dll) : fatal error LNK1112: 模組電腦類型 'x64' 與目標電腦類型 'X86' 衝突
+     1>專案 "D:\檔案資料\c++\document\major_boat\major_boat\major_boat.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:02.95
